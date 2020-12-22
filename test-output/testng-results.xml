@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumOnlineProject3" duration-ms="21527" started-at="2020-12-20T22:21:28 BDT" finished-at="2020-12-20T22:21:49 BDT">
+    <groups>
+    </groups>
+    <test name="LoginModule" duration-ms="18806" started-at="2020-12-20T22:21:28 BDT" finished-at="2020-12-20T22:21:46 BDT">
+      <class name="com.bitm.SeleniumOnlineProject3.Test.LoginTest">
+        <test-method status="PASS" signature="homepagetitleverify()[pri:0, instance:com.bitm.SeleniumOnlineProject3.Test.LoginTest@9660f4e]" name="homepagetitleverify" duration-ms="12846" started-at="2020-12-20T22:21:28 BDT" finished-at="2020-12-20T22:21:41 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagetitleverify -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.bitm.SeleniumOnlineProject3.Test.LoginTest@9660f4e]" name="logintest" duration-ms="5837" started-at="2020-12-20T22:21:41 BDT" depends-on-methods="com.bitm.SeleniumOnlineProject3.Test.LoginTest.homepagetitleverify" finished-at="2020-12-20T22:21:46 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.bitm.SeleniumOnlineProject3.Test.LoginTest -->
+    </test> <!-- LoginModule -->
+    <test name="AssignLeaveModule" duration-ms="2564" started-at="2020-12-20T22:21:47 BDT" finished-at="2020-12-20T22:21:49 BDT">
+      <class name="com.bitm.SeleniumOnlineProject3.Test.AssignLeaveTest">
+        <test-method status="PASS" signature="assignleavetest()[pri:0, instance:com.bitm.SeleniumOnlineProject3.Test.AssignLeaveTest@4d41cee]" name="assignleavetest" duration-ms="2557" started-at="2020-12-20T22:21:47 BDT" finished-at="2020-12-20T22:21:49 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignleavetest -->
+      </class> <!-- com.bitm.SeleniumOnlineProject3.Test.AssignLeaveTest -->
+    </test> <!-- AssignLeaveModule -->
+  </suite> <!-- SeleniumOnlineProject3 -->
+</testng-results>
