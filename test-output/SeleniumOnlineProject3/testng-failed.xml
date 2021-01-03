@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [SeleniumOnlineProject3]">
-  <test thread-count="5" name="LoginTest(failed)">
+  <test thread-count="5" name="LoginModule(failed)">
     <classes>
       <class name="com.bitm.SeleniumOnlineProject3.Test.LoginTest">
         <methods>
-          <include name="logintest"/>
+          <include name="logintest" invocation-numbers="0"/>
           <include name="homepagetitleverify"/>
         </methods>
       </class> <!-- com.bitm.SeleniumOnlineProject3.Test.LoginTest -->
     </classes>
-  </test> <!-- LoginTest(failed) -->
+  </test> <!-- LoginModule(failed) -->
 </suite> <!-- Failed suite [SeleniumOnlineProject3] -->

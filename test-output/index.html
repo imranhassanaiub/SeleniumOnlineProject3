@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-SeleniumOnlineProject3">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,17 +104,12 @@
                     <div class="method-list-content passed suite-SeleniumOnlineProject3">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject3" title="com.bitm.SeleniumOnlineProject3.Test.AssignLeaveTest" hash-for-method="assignleavetest">assignleavetest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject3" title="com.bitm.SeleniumOnlineProject3.Test.LoginTest" hash-for-method="homepagetitleverify">homepagetitleverify</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject3" title="com.bitm.SeleniumOnlineProject3.Test.LoginTest" hash-for-method="logintest">logintest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject3" title="com.bitm.SeleniumOnlineProject3.Test.LoginTest" hash-for-method="logintest([LoginDTO [username=ABCD, password=ABCD], LoginDTO [username=Admin, password=admin123]])">logintest([LoginDTO [username=ABCD, password=ABCD], LoginDTO [username=Admin, password=admin123]])</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SeleniumOnlineProject3 -->
@@ -144,24 +139,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="logintest">
-                  </a> <!-- logintest -->
+                  <a name="logintest([LoginDTO [username=ABCD, password=ABCD], LoginDTO [username=Admin, password=admin123]])">
+                  </a> <!-- logintest([LoginDTO [username=ABCD, password=ABCD], LoginDTO [username=Admin, password=admin123]]) -->
                   <span class="method-name">logintest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SeleniumOnlineProject3-class-passed -->
-          <div class="suite-SeleniumOnlineProject3-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.bitm.SeleniumOnlineProject3.Test.AssignLeaveTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="assignleavetest">
-                  </a> <!-- assignleavetest -->
-                  <span class="method-name">assignleavetest</span>
+                  <span class="parameters">([LoginDTO [username=ABCD, password=ABCD], LoginDTO [username=Admin, password=admin123]])</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -181,11 +162,6 @@
       &lt;class name=&quot;com.bitm.SeleniumOnlineProject3.Test.LoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- LoginModule --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;AssignLeaveModule&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.bitm.SeleniumOnlineProject3.Test.AssignLeaveTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- AssignLeaveModule --&gt;
 &lt;/suite&gt; &lt;!-- SeleniumOnlineProject3 --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -198,9 +174,6 @@
             <ul>
               <li>
                 <span class="test-name">LoginModule (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">AssignLeaveModule (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -226,19 +199,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'homepagetitleverify')
 data.setCell(0, 2, 'com.bitm.SeleniumOnlineProject3.Test.LoginTest')
-data.setCell(0, 3, 12846);
+data.setCell(0, 3, 12922);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'logintest')
 data.setCell(1, 2, 'com.bitm.SeleniumOnlineProject3.Test.LoginTest')
-data.setCell(1, 3, 5837);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'assignleavetest')
-data.setCell(2, 2, 'com.bitm.SeleniumOnlineProject3.Test.AssignLeaveTest')
-data.setCell(2, 3, 2557);
+data.setCell(1, 3, 8547);
 window.suiteTableData['SeleniumOnlineProject3']= { tableData: data, tableDiv: 'times-div-SeleniumOnlineProject3'}
 return data;
 }
@@ -275,15 +244,8 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">logintest</span>
-                <span class="method-start">12864 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.bitm.SeleniumOnlineProject3.Test.AssignLeaveTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">assignleavetest</span>
-                <span class="method-start">18863 ms</span>
+                <span class="method-name">logintest([LoginDTO [username=ABCD, password=ABCD], LoginDTO [username=Admin, password=admin123]])</span>
+                <span class="method-start">14898 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
