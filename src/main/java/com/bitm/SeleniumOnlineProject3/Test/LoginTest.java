@@ -5,14 +5,17 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.bitm.SeleniumOnlineProject3.DTO.LoginDTO;
 import com.bitm.SeleniumOnlineProject3.DataProvider.LoginDataProvider;
 import com.bitm.SeleniumOnlineProject3.Utils.DriverManager;
+import com.bitm.SeleniumOnlineProject3.Utils.TestNGReporting;
 import com.bitm.SeleniumOnlineProject3.Utils.UrlTextUtils;
 import com.bitm.SeleniumOnlineProject3.Utils.XpathUtils;
 
+@Listeners(TestNGReporting.class)
 public class LoginTest {
 
 	private WebDriver driver = null;

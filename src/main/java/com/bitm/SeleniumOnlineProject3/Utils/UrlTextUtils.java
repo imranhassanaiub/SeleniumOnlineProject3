@@ -10,7 +10,7 @@ public class UrlTextUtils {
 
 	public static class Text {
 		
-		public static final String homepageTitle = "OrangeHRM";
+		public static final String homepageTitle = "OrangeHRMM";
 	}
 
 }

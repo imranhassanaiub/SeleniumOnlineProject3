@@ -2,10 +2,8 @@
 
 	<test name="LoginModule">
 		<classes>
-			<class name="com.bitm.SeleniumOnlineProject3.Test.LoginTest" />			
+			<class name="com.bitm.SeleniumOnlineProject3.Test.LoginTest" />					
 		</classes>
 	</test>
-
-	
 
 </suite>
